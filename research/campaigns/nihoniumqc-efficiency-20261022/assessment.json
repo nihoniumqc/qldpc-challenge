@@ -1,0 +1,977 @@
+{
+  "upstream_commit": "2ac3b244009edf688c3472a18d85bcd235e97e63",
+  "date": "2026-10-22",
+  "screened_candidates": 28,
+  "fresh_candidates": 16,
+  "warm_candidates": 12,
+  "screen_trials_per_side_per_candidate": 4000,
+  "deeper_candidates": 7,
+  "accelerated_trials_per_side_total_over_all_candidates": 552000,
+  "numpy_trials_per_side_total_over_all_candidates": 112,
+  "new_validated_find_count": 0,
+  "new_submission_count": 0,
+  "previous_submission": {
+    "pr_url": "https://github.com/unitaryfoundation/qldpc-challenge/pull/3978",
+    "merged": true,
+    "n": 872,
+    "k": 222,
+    "d_ub": 20,
+    "deepest_trials_per_side": 1000000,
+    "provisional_score": 101.8348623853211
+  },
+  "confirmations": [
+    {
+      "candidate": "808-206-24-13",
+      "n": 808,
+      "k": 206,
+      "screen_d_ub": 24,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102203,
+          "d_ub": 24,
+          "side": "X",
+          "seconds": 6
+        },
+        {
+          "trials_per_side": 100000,
+          "seed": 2026102204,
+          "d_ub": 20,
+          "side": "Z",
+          "seconds": 29
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 24,
+          "confidence": "upper_bound",
+          "witness": [
+            16,
+            42,
+            73,
+            83,
+            87,
+            95,
+            203,
+            218,
+            247,
+            266,
+            272,
+            276,
+            319,
+            326,
+            329,
+            351,
+            371,
+            386,
+            710,
+            750,
+            776,
+            792,
+            797,
+            804
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/kit/surrogate.distance_rand_witness (fast)",
+            "seeds": [
+              2026103214
+            ],
+            "found_at_samples": 4000,
+            "survived_samples": 4000
+          }
+        },
+        "Z": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            94,
+            167,
+            186,
+            198,
+            347,
+            413,
+            460,
+            479,
+            484,
+            496,
+            541,
+            542,
+            594,
+            631,
+            649,
+            673,
+            696,
+            725,
+            730,
+            791
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102204
+            ],
+            "found_at_samples": 100000,
+            "survived_samples": 100000
+          }
+        }
+      },
+      "score_upper_bound": 101.98019801980197,
+      "rate": 0.25495049504950495,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "808-206-24-13.json: n=808 k=206 (claimed 206) w=8 css_ok=True claim d<=24 (X=24, Z=76)\n  pair_depth=16 threads=8\n  trials=    20,000 seed=2026102203: d<=24 side=X [6s] witness=ok\n    NEW BEST d<=24 side=X support=[5, 36, 40, 43, 49, 91, 324, 339, 352, 362, 375, 400, 525, 540, 569, 588, 594, 598, 724, 729, 745, 752, 764, 783]\n  trials=   100,000 seed=2026102204: d<=20 side=Z [29s] witness=ok\n    NEW BEST d<=20 side=Z support=[94, 167, 186, 198, 347, 413, 460, 479, 484, 496, 541, 542, 594, 631, 649, 673, 696, 725, 730, 791]\nVERDICT: n=808 k=206 claim=24 d_ub=20 eff(kd^2/n)=101.98 -> refuted\n",
+      "log_sha256": "ff098c7fd2a48f718cf386d8a5368d340b0a19525d4f410f4367de48b1ac6927"
+    },
+    {
+      "candidate": "856-218-22-14",
+      "n": 856,
+      "k": 218,
+      "screen_d_ub": 22,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102205,
+          "d_ub": 20,
+          "side": "X",
+          "seconds": 13
+        },
+        {
+          "trials_per_side": 100000,
+          "seed": 2026102206,
+          "d_ub": 20,
+          "side": "X",
+          "seconds": 61
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            16,
+            53,
+            110,
+            128,
+            174,
+            186,
+            336,
+            393,
+            452,
+            473,
+            491,
+            528,
+            621,
+            641,
+            686,
+            744,
+            752,
+            758,
+            776,
+            797
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102205
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        },
+        "Z": {
+          "value": 74,
+          "confidence": "upper_bound",
+          "witness": [
+            4,
+            7,
+            31,
+            33,
+            34,
+            45,
+            48,
+            100,
+            104,
+            108,
+            129,
+            131,
+            133,
+            138,
+            147,
+            168,
+            170,
+            178,
+            205,
+            214,
+            215,
+            228,
+            248,
+            251,
+            252,
+            288,
+            290,
+            319,
+            324,
+            326,
+            327,
+            330,
+            360,
+            367,
+            405,
+            411,
+            416,
+            420,
+            427,
+            437,
+            460,
+            488,
+            506,
+            508,
+            512,
+            517,
+            527,
+            529,
+            535,
+            537,
+            541,
+            559,
+            561,
+            578,
+            614,
+            620,
+            623,
+            640,
+            642,
+            648,
+            671,
+            676,
+            677,
+            679,
+            681,
+            736,
+            750,
+            753,
+            771,
+            786,
+            789,
+            820,
+            830,
+            855
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "found_at_samples": 4,
+            "survived_samples": 4,
+            "tool": "research/kit/surrogate.lightest_logical",
+            "seeds": [
+              2026103216
+            ]
+          }
+        }
+      },
+      "score_upper_bound": 101.86915887850468,
+      "rate": 0.2546728971962617,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "856-218-22-14.json: n=856 k=218 (claimed 218) w=8 css_ok=True claim d<=22 (X=22, Z=74)\n  pair_depth=16 threads=4\n  trials=    20,000 seed=2026102205: d<=20 side=X [13s] witness=ok\n    NEW BEST d<=20 side=X support=[16, 53, 110, 128, 174, 186, 336, 393, 452, 473, 491, 528, 621, 641, 686, 744, 752, 758, 776, 797]\n  trials=   100,000 seed=2026102206: d<=20 side=X [61s] witness=ok\nVERDICT: n=856 k=218 claim=22 d_ub=20 eff(kd^2/n)=101.87 -> refuted\n",
+      "log_sha256": "1af1098ce02cb07fb0c8912c1e2df9db05dafa225adc2f2f6c7f20b1dae82b24"
+    },
+    {
+      "candidate": "872-222-26-warm-6",
+      "n": 872,
+      "k": 222,
+      "screen_d_ub": 26,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102211,
+          "d_ub": 20,
+          "side": "Z",
+          "seconds": 10
+        },
+        {
+          "trials_per_side": 100000,
+          "seed": 2026102212,
+          "d_ub": 20,
+          "side": "X",
+          "seconds": 35
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 74,
+          "confidence": "upper_bound",
+          "witness": [
+            10,
+            27,
+            35,
+            38,
+            49,
+            53,
+            70,
+            95,
+            105,
+            107,
+            112,
+            137,
+            147,
+            176,
+            180,
+            184,
+            188,
+            189,
+            192,
+            197,
+            213,
+            227,
+            231,
+            237,
+            279,
+            297,
+            298,
+            315,
+            321,
+            342,
+            344,
+            352,
+            363,
+            369,
+            388,
+            408,
+            415,
+            453,
+            457,
+            467,
+            483,
+            487,
+            508,
+            556,
+            561,
+            575,
+            579,
+            583,
+            588,
+            629,
+            637,
+            640,
+            648,
+            665,
+            675,
+            681,
+            684,
+            706,
+            709,
+            710,
+            718,
+            721,
+            732,
+            736,
+            746,
+            777,
+            784,
+            789,
+            800,
+            820,
+            827,
+            832,
+            857,
+            868
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "found_at_samples": 4,
+            "survived_samples": 4,
+            "tool": "research/kit/surrogate.lightest_logical",
+            "seeds": [
+              2026104208
+            ]
+          }
+        },
+        "Z": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            12,
+            22,
+            125,
+            137,
+            180,
+            236,
+            270,
+            387,
+            390,
+            413,
+            464,
+            489,
+            498,
+            571,
+            650,
+            689,
+            699,
+            754,
+            816,
+            843
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102211
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        }
+      },
+      "score_upper_bound": 101.8348623853211,
+      "rate": 0.2545871559633027,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "872-222-26-warm-6.json: n=872 k=222 (claimed 222) w=8 css_ok=True claim d<=26 (X=74, Z=26)\n  pair_depth=16 threads=8\n  trials=    20,000 seed=2026102211: d<=20 side=Z [10s] witness=ok\n    NEW BEST d<=20 side=Z support=[12, 22, 125, 137, 180, 236, 270, 387, 390, 413, 464, 489, 498, 571, 650, 689, 699, 754, 816, 843]\n  trials=   100,000 seed=2026102212: d<=20 side=X [35s] witness=ok\nVERDICT: n=872 k=222 claim=26 d_ub=20 eff(kd^2/n)=101.83 -> refuted\n",
+      "log_sha256": "e0ced77177ba53d22d66496ab9b8df7b10d2d99d6f384096bd4975553d441d0e"
+    },
+    {
+      "candidate": "904-230-30-warm-9",
+      "n": 904,
+      "k": 230,
+      "screen_d_ub": 30,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102213,
+          "d_ub": 20,
+          "side": "X",
+          "seconds": 13
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            11,
+            90,
+            111,
+            192,
+            205,
+            215,
+            244,
+            340,
+            353,
+            442,
+            459,
+            593,
+            606,
+            617,
+            627,
+            630,
+            755,
+            839,
+            850,
+            863
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102213
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        },
+        "Z": {
+          "value": 74,
+          "confidence": "upper_bound",
+          "witness": [
+            10,
+            11,
+            13,
+            59,
+            113,
+            133,
+            136,
+            138,
+            141,
+            144,
+            163,
+            170,
+            172,
+            173,
+            210,
+            219,
+            224,
+            230,
+            236,
+            265,
+            277,
+            286,
+            313,
+            327,
+            330,
+            333,
+            359,
+            368,
+            371,
+            380,
+            400,
+            434,
+            436,
+            441,
+            497,
+            525,
+            527,
+            531,
+            533,
+            541,
+            542,
+            555,
+            570,
+            571,
+            576,
+            590,
+            597,
+            605,
+            619,
+            627,
+            631,
+            632,
+            639,
+            648,
+            668,
+            680,
+            705,
+            717,
+            738,
+            743,
+            747,
+            780,
+            794,
+            804,
+            818,
+            822,
+            830,
+            833,
+            864,
+            876,
+            882,
+            887,
+            888,
+            896
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "found_at_samples": 4,
+            "survived_samples": 4,
+            "tool": "research/kit/surrogate.lightest_logical",
+            "seeds": [
+              2026104212
+            ]
+          }
+        }
+      },
+      "score_upper_bound": 101.76991150442478,
+      "rate": 0.25442477876106195,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "904-230-30-warm-9.json: n=904 k=230 (claimed 230) w=8 css_ok=True claim d<=30 (X=30, Z=74)\n  pair_depth=16 threads=4\n  trials=    20,000 seed=2026102213: d<=20 side=X [13s] witness=ok\n    NEW BEST d<=20 side=X support=[11, 90, 111, 192, 205, 215, 244, 340, 353, 442, 459, 593, 606, 617, 627, 630, 755, 839, 850, 863]\nVERDICT: n=904 k=230 claim=30 d_ub=20 eff(kd^2/n)=101.77 -> refuted\n",
+      "log_sha256": "b610c01c7e410391c5671e00babdef8e67b2a0ea98bc4a722675a4febd13e393"
+    },
+    {
+      "candidate": "904-230-24-warm-11",
+      "n": 904,
+      "k": 230,
+      "screen_d_ub": 24,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102214,
+          "d_ub": 20,
+          "side": "X",
+          "seconds": 13
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            126,
+            239,
+            250,
+            259,
+            270,
+            354,
+            369,
+            411,
+            431,
+            466,
+            486,
+            566,
+            617,
+            623,
+            746,
+            755,
+            772,
+            809,
+            824,
+            872
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102214
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        },
+        "Z": {
+          "value": 24,
+          "confidence": "upper_bound",
+          "witness": [
+            6,
+            91,
+            100,
+            101,
+            111,
+            215,
+            241,
+            246,
+            266,
+            274,
+            283,
+            373,
+            397,
+            438,
+            483,
+            501,
+            541,
+            622,
+            664,
+            670,
+            706,
+            746,
+            751,
+            843
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/kit/surrogate.distance_rand_witness (fast)",
+            "seeds": [
+              2026104213
+            ],
+            "found_at_samples": 4000,
+            "survived_samples": 4000
+          }
+        }
+      },
+      "score_upper_bound": 101.76991150442478,
+      "rate": 0.25442477876106195,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "904-230-24-warm-11.json: n=904 k=230 (claimed 230) w=8 css_ok=True claim d<=24 (X=68, Z=24)\n  pair_depth=16 threads=4\n  trials=    20,000 seed=2026102214: d<=20 side=X [13s] witness=ok\n    NEW BEST d<=20 side=X support=[126, 239, 250, 259, 270, 354, 369, 411, 431, 466, 486, 566, 617, 623, 746, 755, 772, 809, 824, 872]\nVERDICT: n=904 k=230 claim=24 d_ub=20 eff(kd^2/n)=101.77 -> refuted\n",
+      "log_sha256": "c7432ea0b5b7670a67f3250bcdfd3f0b7198d1477ff0826cd014e5313d93ea5d"
+    },
+    {
+      "candidate": "904-230-24-warm-5",
+      "n": 904,
+      "k": 230,
+      "screen_d_ub": 24,
+      "final_d_ub": 20,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102215,
+          "d_ub": 20,
+          "side": "Z",
+          "seconds": 15
+        }
+      ],
+      "final_witnesses": {
+        "d": 20,
+        "X": {
+          "value": 24,
+          "confidence": "upper_bound",
+          "witness": [
+            20,
+            129,
+            134,
+            141,
+            165,
+            215,
+            285,
+            290,
+            294,
+            315,
+            318,
+            347,
+            460,
+            511,
+            514,
+            520,
+            564,
+            648,
+            694,
+            722,
+            749,
+            752,
+            782,
+            808
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/kit/surrogate.distance_rand_witness (fast)",
+            "seeds": [
+              2026104207
+            ],
+            "found_at_samples": 4000,
+            "survived_samples": 4000
+          }
+        },
+        "Z": {
+          "value": 20,
+          "confidence": "upper_bound",
+          "witness": [
+            86,
+            110,
+            117,
+            180,
+            317,
+            336,
+            430,
+            437,
+            473,
+            547,
+            601,
+            613,
+            721,
+            735,
+            740,
+            785,
+            797,
+            829,
+            847,
+            848
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102215
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        }
+      },
+      "score_upper_bound": 101.76991150442478,
+      "rate": 0.25442477876106195,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "904-230-24-warm-5.json: n=904 k=230 (claimed 230) w=8 css_ok=True claim d<=24 (X=24, Z=82)\n  pair_depth=16 threads=4\n  trials=    20,000 seed=2026102215: d<=20 side=Z [15s] witness=ok\n    NEW BEST d<=20 side=Z support=[86, 110, 117, 180, 317, 336, 430, 437, 473, 547, 601, 613, 721, 735, 740, 785, 797, 829, 847, 848]\nVERDICT: n=904 k=230 claim=24 d_ub=20 eff(kd^2/n)=101.77 -> refuted\n",
+      "log_sha256": "34dfafa86a893d02b2eb0446e41fa6b99012abefdd14f7eff10478b41bdc408c"
+    },
+    {
+      "candidate": "872-222-22-warm-4",
+      "n": 872,
+      "k": 222,
+      "screen_d_ub": 22,
+      "final_d_ub": 18,
+      "rungs": [
+        {
+          "trials_per_side": 20000,
+          "seed": 2026102216,
+          "d_ub": 18,
+          "side": "X",
+          "seconds": 14
+        }
+      ],
+      "final_witnesses": {
+        "d": 18,
+        "X": {
+          "value": 18,
+          "confidence": "upper_bound",
+          "witness": [
+            0,
+            30,
+            56,
+            142,
+            143,
+            251,
+            297,
+            393,
+            506,
+            560,
+            583,
+            591,
+            613,
+            627,
+            639,
+            707,
+            766,
+            814
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "tool": "research/audits/leader_audit.py (fast RIS)",
+            "seeds": [
+              2026102216
+            ],
+            "found_at_samples": 20000,
+            "survived_samples": 20000
+          }
+        },
+        "Z": {
+          "value": 78,
+          "confidence": "upper_bound",
+          "witness": [
+            5,
+            6,
+            17,
+            51,
+            76,
+            79,
+            87,
+            110,
+            114,
+            137,
+            156,
+            165,
+            190,
+            200,
+            210,
+            216,
+            222,
+            229,
+            291,
+            301,
+            331,
+            350,
+            354,
+            383,
+            384,
+            394,
+            398,
+            408,
+            412,
+            413,
+            414,
+            416,
+            424,
+            431,
+            438,
+            458,
+            464,
+            466,
+            470,
+            471,
+            501,
+            504,
+            508,
+            525,
+            529,
+            568,
+            573,
+            574,
+            582,
+            583,
+            584,
+            598,
+            613,
+            614,
+            647,
+            653,
+            655,
+            660,
+            661,
+            673,
+            678,
+            691,
+            698,
+            699,
+            701,
+            704,
+            715,
+            722,
+            776,
+            782,
+            783,
+            785,
+            789,
+            796,
+            805,
+            809,
+            854,
+            858
+          ],
+          "witness_provenance": {
+            "found_by": [
+              "@nihoniumqc"
+            ],
+            "date": "2026-10-22",
+            "found_at_samples": 4,
+            "survived_samples": 4,
+            "tool": "research/kit/surrogate.lightest_logical",
+            "seeds": [
+              2026104207
+            ]
+          }
+        }
+      },
+      "score_upper_bound": 82.4862385321101,
+      "rate": 0.2545871559633027,
+      "status": "screen_claim_refuted_no_submission",
+      "official_log_excerpt": "872-222-22-warm-4.json: n=872 k=222 (claimed 222) w=8 css_ok=True claim d<=22 (X=22, Z=78)\n  pair_depth=16 threads=4\n  trials=    20,000 seed=2026102216: d<=18 side=X [14s] witness=ok\n    NEW BEST d<=18 side=X support=[0, 30, 56, 142, 143, 251, 297, 393, 506, 560, 583, 591, 613, 627, 639, 707, 766, 814]\nVERDICT: n=872 k=222 claim=22 d_ub=18 eff(kd^2/n)=82.49 -> refuted\n",
+      "log_sha256": "a48e4f916c6d954269cf8f2af585eb1a2266f4839dfde5df9f7ced1c41595c74"
+    }
+  ],
+  "gate_caveat": "The 808-qubit screening document passed the short trusted gate at d<=24; independent 100,000-trial search then found a valid weight-20 logical. The earlier passing gate is superseded as evidence for that distance claim. No d<=24 find or submission is claimed.",
+  "comparison_caveat": "The small arithmetic gain of the 808-qubit score over our older code is not a demonstrated efficiency improvement: budgets differ and this parameter point already exists on the board. No new candidate completed the required million-trial confirmation."
+}

@@ -1,0 +1,66 @@
+{
+  "aborted_experiments": 0,
+  "authority": "this manifest records what ran; what a run is allowed to claim is still decided by verify/validate_candidate.py",
+  "campaign_id": "nihoniumqc-efficiency-20261022",
+  "consumed": {
+    "candidates_screened": 16,
+    "walltime_hours": 0.021
+  },
+  "errors": [],
+  "experiments": 16,
+  "logs": [],
+  "manifest_version": 1,
+  "negative_results": [],
+  "params": {
+    "draws": 16,
+    "lifts": [
+      97,
+      101,
+      107,
+      113
+    ],
+    "moves": 4000,
+    "numpy_trials_per_side": 4,
+    "pair_depth": 8,
+    "seed": 2026102201,
+    "threads": 8,
+    "trials": 4000
+  },
+  "seeds": [
+    2026103201,
+    2026103202,
+    2026103203,
+    2026103204,
+    2026103205,
+    2026103206,
+    2026103207,
+    2026103208,
+    2026103209,
+    2026103210,
+    2026103211,
+    2026103212,
+    2026103213,
+    2026103214,
+    2026103215,
+    2026103216
+  ],
+  "snapshot": {
+    "branch": "research/nihoniumqc-qldpc-routine",
+    "diff_sha256": null,
+    "dirty": false,
+    "head": "2ac3b244009edf688c3472a18d85bcd235e97e63",
+    "untracked_count": 3
+  },
+  "started_at": "2026-10-22T02:51:50.202945+00:00",
+  "survivor_verdicts": [],
+  "written_at": "2026-10-22T02:53:07.470694+00:00",
+  "followup_assessment": "assessment.json",
+  "screen_witness_archive": "screenings.json",
+  "warm_batch": "warm/results.json",
+  "superseded_gate": {
+    "candidate": "808-206-24-13",
+    "gate_passed_at_claim": 24,
+    "later_validated_witness": 20,
+    "do_not_promote_original_claim": true
+  }
+}

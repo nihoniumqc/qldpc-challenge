@@ -1,0 +1,1520 @@
+{
+  "aborted_experiments": 0,
+  "authority": "candidates listed here passed verify/validate_candidate.py; nothing here is a board entry until a human reviews and submits it",
+  "budget": {
+    "consumed": {
+      "candidates_screened": 16,
+      "walltime_hours": 0.021
+    },
+    "declared": {
+      "candidates_screened": 16,
+      "walltime_hours": 1
+    },
+    "remaining": {
+      "candidates_screened": 0,
+      "walltime_hours": 0.979
+    }
+  },
+  "campaign_id": "nihoniumqc-efficiency-20261022",
+  "campaign_name": "CPM efficiency search, 22 October 2026",
+  "contract_hash": null,
+  "errors": [],
+  "experiments": [
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            33,
+            9,
+            68,
+            92,
+            91,
+            10,
+            76,
+            74
+          ],
+          [
+            14,
+            20,
+            62,
+            92,
+            21,
+            20,
+            19,
+            75
+          ],
+          [
+            67,
+            31,
+            8,
+            54,
+            27,
+            82,
+            15,
+            83
+          ]
+        ],
+        "EZ": [
+          [
+            94,
+            90,
+            35,
+            29,
+            55,
+            44,
+            43,
+            58
+          ],
+          [
+            30,
+            88,
+            65,
+            64,
+            37,
+            89,
+            22,
+            46
+          ],
+          [
+            41,
+            30,
+            89,
+            2,
+            1,
+            30,
+            96,
+            82
+          ]
+        ],
+        "P": 97,
+        "construction_family": "pair-partition-cpm",
+        "draw": 0,
+        "exponent_sha256": "bba52b0d9cb7ab0d286ec797baf6683e7feafafa126f234e5434c58d942fdcdb"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.31958762886597,
+        "trials": 4000
+      },
+      "seed": 2026103201,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0010884619047222246
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            54,
+            45,
+            42,
+            97,
+            21,
+            25,
+            51,
+            47
+          ],
+          [
+            6,
+            0,
+            85,
+            36,
+            27,
+            76,
+            47,
+            92
+          ],
+          [
+            52,
+            96,
+            19,
+            99,
+            14,
+            17,
+            23,
+            7
+          ]
+        ],
+        "EZ": [
+          [
+            35,
+            18,
+            2,
+            11,
+            2,
+            40,
+            11,
+            20
+          ],
+          [
+            87,
+            51,
+            75,
+            92,
+            7,
+            31,
+            37,
+            42
+          ],
+          [
+            13,
+            95,
+            92,
+            51,
+            76,
+            70,
+            96,
+            6
+          ]
+        ],
+        "P": 101,
+        "construction_family": "pair-partition-cpm",
+        "draw": 1,
+        "exponent_sha256": "0036caae4bfff57e78da630233f12a6503f8934c070fadaf806298b0297a89d4"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.26732673267327,
+        "trials": 4000
+      },
+      "seed": 2026103202,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.001182730593333332
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            101,
+            73,
+            40,
+            55,
+            33,
+            54,
+            14,
+            7
+          ],
+          [
+            75,
+            62,
+            45,
+            9,
+            68,
+            81,
+            80,
+            30
+          ],
+          [
+            97,
+            52,
+            101,
+            87,
+            67,
+            10,
+            6,
+            62
+          ]
+        ],
+        "EZ": [
+          [
+            61,
+            82,
+            65,
+            41,
+            100,
+            40,
+            39,
+            16
+          ],
+          [
+            67,
+            64,
+            6,
+            80,
+            60,
+            45,
+            41,
+            32
+          ],
+          [
+            69,
+            72,
+            39,
+            61,
+            39,
+            91,
+            51,
+            82
+          ]
+        ],
+        "P": 107,
+        "construction_family": "pair-partition-cpm",
+        "draw": 2,
+        "exponent_sha256": "8694b335714c102349f36dbba823f2c4dd47a5f820638f87cc9f20033ccb087c"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.19626168224299,
+        "trials": 4000
+      },
+      "seed": 2026103203,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0013003535191666693
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            28,
+            94,
+            23,
+            30,
+            8,
+            47,
+            58,
+            66
+          ],
+          [
+            89,
+            69,
+            105,
+            72,
+            100,
+            51,
+            58,
+            79
+          ],
+          [
+            58,
+            75,
+            112,
+            101,
+            67,
+            26,
+            63,
+            26
+          ]
+        ],
+        "EZ": [
+          [
+            6,
+            24,
+            60,
+            71,
+            99,
+            88,
+            95,
+            109
+          ],
+          [
+            51,
+            9,
+            46,
+            96,
+            62,
+            75,
+            112,
+            19
+          ],
+          [
+            103,
+            77,
+            6,
+            21,
+            112,
+            59,
+            70,
+            28
+          ]
+        ],
+        "P": 113,
+        "construction_family": "pair-partition-cpm",
+        "draw": 3,
+        "exponent_sha256": "656b160ad16faca4519f18d77dbbb8c53aac6472caa7030cb9b57d5a9d0474c0"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.13274336283186,
+        "trials": 4000
+      },
+      "seed": 2026103204,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.001499520777222219
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            11,
+            91,
+            67,
+            80,
+            34,
+            58,
+            55,
+            28
+          ],
+          [
+            4,
+            44,
+            5,
+            23,
+            89,
+            32,
+            55,
+            47
+          ],
+          [
+            16,
+            90,
+            83,
+            93,
+            60,
+            16,
+            92,
+            82
+          ]
+        ],
+        "EZ": [
+          [
+            28,
+            37,
+            95,
+            82,
+            51,
+            60,
+            83,
+            71
+          ],
+          [
+            7,
+            70,
+            63,
+            28,
+            92,
+            37,
+            16,
+            73
+          ],
+          [
+            45,
+            70,
+            46,
+            38,
+            89,
+            58,
+            55,
+            62
+          ]
+        ],
+        "P": 97,
+        "construction_family": "pair-partition-cpm",
+        "draw": 4,
+        "exponent_sha256": "be90a2e35819e2c7584d215c6eac9179ac309999387858f4d3b4676f5dee3088"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.31958762886597,
+        "trials": 4000
+      },
+      "seed": 2026103205,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0010769597455555571
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            35,
+            31,
+            37,
+            72,
+            9,
+            39,
+            29,
+            66
+          ],
+          [
+            75,
+            69,
+            59,
+            100,
+            14,
+            56,
+            16,
+            14
+          ],
+          [
+            28,
+            73,
+            23,
+            45,
+            82,
+            95,
+            95,
+            25
+          ]
+        ],
+        "EZ": [
+          [
+            69,
+            74,
+            64,
+            28,
+            43,
+            96,
+            56,
+            8
+          ],
+          [
+            26,
+            78,
+            28,
+            29,
+            66,
+            86,
+            86,
+            23
+          ],
+          [
+            33,
+            11,
+            17,
+            49,
+            87,
+            99,
+            89,
+            64
+          ]
+        ],
+        "P": 101,
+        "construction_family": "pair-partition-cpm",
+        "draw": 5,
+        "exponent_sha256": "c03c637d50a40f247c219d0046ab8bc42c640af0b9409f4deab86f8d62c95d37"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 18,
+        "kd2_over_n": 82.60396039603961,
+        "trials": 4000
+      },
+      "seed": 2026103206,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0011633629600000005
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            8,
+            46,
+            59,
+            82,
+            47,
+            85,
+            53,
+            59
+          ],
+          [
+            33,
+            87,
+            70,
+            33,
+            99,
+            103,
+            91,
+            33
+          ],
+          [
+            66,
+            75,
+            36,
+            75,
+            82,
+            64,
+            7,
+            102
+          ]
+        ],
+        "EZ": [
+          [
+            93,
+            80,
+            63,
+            66,
+            25,
+            69,
+            57,
+            93
+          ],
+          [
+            65,
+            48,
+            9,
+            17,
+            24,
+            87,
+            30,
+            101
+          ],
+          [
+            98,
+            15,
+            28,
+            42,
+            7,
+            31,
+            106,
+            42
+          ]
+        ],
+        "P": 107,
+        "construction_family": "pair-partition-cpm",
+        "draw": 6,
+        "exponent_sha256": "49e557c6684d9d84f2fb1169b83170e3b629c7d89e8f48052221093b120877f9"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 18,
+        "kd2_over_n": 82.51401869158879,
+        "trials": 4000
+      },
+      "seed": 2026103207,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.001457902265833329
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            61,
+            1,
+            31,
+            25,
+            15,
+            60,
+            36,
+            19
+          ],
+          [
+            4,
+            97,
+            105,
+            58,
+            87,
+            58,
+            13,
+            37
+          ],
+          [
+            40,
+            24,
+            63,
+            29,
+            9,
+            82,
+            83,
+            24
+          ]
+        ],
+        "EZ": [
+          [
+            19,
+            34,
+            42,
+            57,
+            86,
+            92,
+            47,
+            52
+          ],
+          [
+            109,
+            40,
+            79,
+            99,
+            79,
+            99,
+            100,
+            93
+          ],
+          [
+            27,
+            98,
+            15,
+            6,
+            109,
+            59,
+            35,
+            98
+          ]
+        ],
+        "P": 113,
+        "construction_family": "pair-partition-cpm",
+        "draw": 7,
+        "exponent_sha256": "a9cdd1a0c05ba9d5bf545f9ed9cfe6ad469e830858ca9f469179782c34934e00"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 18,
+        "kd2_over_n": 82.43362831858407,
+        "trials": 4000
+      },
+      "seed": 2026103208,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0015213312930555548
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            57,
+            57,
+            15,
+            76,
+            37,
+            44,
+            87,
+            54
+          ],
+          [
+            60,
+            7,
+            53,
+            18,
+            52,
+            19,
+            40,
+            68
+          ],
+          [
+            15,
+            21,
+            72,
+            18,
+            20,
+            21,
+            72,
+            80
+          ]
+        ],
+        "EZ": [
+          [
+            19,
+            30,
+            76,
+            62,
+            96,
+            30,
+            51,
+            27
+          ],
+          [
+            17,
+            21,
+            72,
+            7,
+            9,
+            8,
+            59,
+            82
+          ],
+          [
+            83,
+            21,
+            76,
+            30,
+            88,
+            33,
+            76,
+            80
+          ]
+        ],
+        "P": 97,
+        "construction_family": "pair-partition-cpm",
+        "draw": 8,
+        "exponent_sha256": "85df43fab23c06b18f7003f08c9cd2ef7a74c59bdcbeaf95250573d37317df5b"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 18,
+        "kd2_over_n": 82.6701030927835,
+        "trials": 4000
+      },
+      "seed": 2026103209,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0010496737925000034
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            33,
+            23,
+            12,
+            92,
+            42,
+            87,
+            96,
+            98
+          ],
+          [
+            17,
+            1,
+            26,
+            67,
+            54,
+            85,
+            37,
+            53
+          ],
+          [
+            62,
+            91,
+            48,
+            21,
+            91,
+            46,
+            51,
+            35
+          ]
+        ],
+        "EZ": [
+          [
+            81,
+            42,
+            67,
+            2,
+            90,
+            98,
+            50,
+            16
+          ],
+          [
+            12,
+            34,
+            92,
+            80,
+            49,
+            98,
+            2,
+            86
+          ],
+          [
+            54,
+            74,
+            63,
+            32,
+            83,
+            57,
+            66,
+            18
+          ]
+        ],
+        "P": 101,
+        "construction_family": "pair-partition-cpm",
+        "draw": 9,
+        "exponent_sha256": "73fe37ec0b8731e666b4f4c366aa5e92507c12addc3e52b776ba1d09b7537da6"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.26732673267327,
+        "trials": 4000
+      },
+      "seed": 2026103210,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.001198371632777777
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            3,
+            51,
+            7,
+            88,
+            83,
+            35,
+            65,
+            25
+          ],
+          [
+            13,
+            71,
+            100,
+            41,
+            41,
+            84,
+            106,
+            56
+          ],
+          [
+            5,
+            36,
+            103,
+            71,
+            7,
+            101,
+            83,
+            34
+          ]
+        ],
+        "EZ": [
+          [
+            17,
+            86,
+            8,
+            97,
+            97,
+            44,
+            66,
+            60
+          ],
+          [
+            19,
+            63,
+            23,
+            4,
+            47,
+            47,
+            29,
+            48
+          ],
+          [
+            53,
+            77,
+            33,
+            60,
+            55,
+            90,
+            13,
+            75
+          ]
+        ],
+        "P": 107,
+        "construction_family": "pair-partition-cpm",
+        "draw": 10,
+        "exponent_sha256": "a6dc48712315bd8d1f33ecf81326c0cbdaff05028b67bc294edc9a049bac5a38"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 20,
+        "kd2_over_n": 101.86915887850468,
+        "trials": 4000
+      },
+      "seed": 2026103211,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0013509429952777749
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            111,
+            53,
+            41,
+            65,
+            32,
+            109,
+            62,
+            67
+          ],
+          [
+            21,
+            32,
+            73,
+            80,
+            32,
+            36,
+            71,
+            21
+          ],
+          [
+            6,
+            88,
+            33,
+            62,
+            101,
+            2,
+            2,
+            93
+          ]
+        ],
+        "EZ": [
+          [
+            78,
+            64,
+            105,
+            47,
+            112,
+            91,
+            13,
+            78
+          ],
+          [
+            110,
+            95,
+            40,
+            82,
+            8,
+            38,
+            38,
+            84
+          ],
+          [
+            10,
+            74,
+            62,
+            25,
+            105,
+            78,
+            31,
+            79
+          ]
+        ],
+        "P": 113,
+        "construction_family": "pair-partition-cpm",
+        "draw": 11,
+        "exponent_sha256": "88df67d321113f4d22cd20f18feef167e201d231020ab0499dabf60463617dd7"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 18,
+        "kd2_over_n": 82.43362831858407,
+        "trials": 4000
+      },
+      "seed": 2026103212,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0014545746266666666
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            9,
+            49,
+            25,
+            87,
+            17,
+            49,
+            54,
+            80
+          ],
+          [
+            45,
+            53,
+            78,
+            65,
+            29,
+            39,
+            83,
+            72
+          ],
+          [
+            19,
+            12,
+            40,
+            43,
+            13,
+            22,
+            55,
+            26
+          ]
+        ],
+        "EZ": [
+          [
+            60,
+            56,
+            81,
+            7,
+            68,
+            66,
+            13,
+            87
+          ],
+          [
+            48,
+            36,
+            64,
+            62,
+            32,
+            36,
+            69,
+            55
+          ],
+          [
+            57,
+            17,
+            90,
+            24,
+            51,
+            3,
+            8,
+            31
+          ]
+        ],
+        "P": 97,
+        "construction_family": "pair-partition-cpm",
+        "draw": 12,
+        "exponent_sha256": "6aa369de1f7e7081c1fe26baf760013b1c1706b93ce82d20a9f44b0f8d8aa437"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.31958762886597,
+        "trials": 4000
+      },
+      "seed": 2026103213,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0010801794544444477
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            63,
+            60,
+            76,
+            34,
+            51,
+            42,
+            17,
+            61
+          ],
+          [
+            57,
+            32,
+            28,
+            61,
+            49,
+            62,
+            74,
+            40
+          ],
+          [
+            49,
+            80,
+            27,
+            39,
+            85,
+            5,
+            16,
+            22
+          ]
+        ],
+        "EZ": [
+          [
+            25,
+            7,
+            3,
+            25,
+            13,
+            33,
+            45,
+            8
+          ],
+          [
+            70,
+            35,
+            83,
+            16,
+            62,
+            17,
+            28,
+            43
+          ],
+          [
+            34,
+            90,
+            5,
+            53,
+            70,
+            19,
+            95,
+            32
+          ]
+        ],
+        "P": 101,
+        "construction_family": "pair-partition-cpm",
+        "draw": 13,
+        "exponent_sha256": "927603009df9db140221bf337a6d2c46e46faa8733d08d01dccf6f9ae82749ca"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 24,
+        "kd2_over_n": 146.85148514851485,
+        "trials": 4000
+      },
+      "seed": 2026103214,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0011520952127777662
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            104,
+            40,
+            67,
+            98,
+            94,
+            64,
+            41,
+            104
+          ],
+          [
+            46,
+            94,
+            42,
+            52,
+            62,
+            55,
+            42,
+            14
+          ],
+          [
+            85,
+            67,
+            44,
+            3,
+            12,
+            2,
+            62,
+            98
+          ]
+        ],
+        "EZ": [
+          [
+            26,
+            37,
+            92,
+            6,
+            16,
+            79,
+            66,
+            101
+          ],
+          [
+            18,
+            4,
+            88,
+            25,
+            34,
+            28,
+            88,
+            31
+          ],
+          [
+            82,
+            51,
+            78,
+            13,
+            9,
+            12,
+            96,
+            82
+          ]
+        ],
+        "P": 107,
+        "construction_family": "pair-partition-cpm",
+        "draw": 14,
+        "exponent_sha256": "95e9e92edc41af13002166616ba380713f22b7220301505b4abb939798413179"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 22,
+        "kd2_over_n": 123.26168224299066,
+        "trials": 4000
+      },
+      "seed": 2026103215,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.001334949307777767
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    },
+    {
+      "contract_hash": null,
+      "family": "other",
+      "mode": "novel_generation",
+      "note": "",
+      "params": {
+        "EX": [
+          [
+            56,
+            111,
+            56,
+            62,
+            24,
+            29,
+            33,
+            74
+          ],
+          [
+            56,
+            59,
+            31,
+            20,
+            31,
+            62,
+            15,
+            60
+          ],
+          [
+            52,
+            63,
+            65,
+            4,
+            105,
+            59,
+            14,
+            51
+          ]
+        ],
+        "EZ": [
+          [
+            100,
+            28,
+            0,
+            57,
+            68,
+            24,
+            90,
+            104
+          ],
+          [
+            65,
+            63,
+            65,
+            52,
+            40,
+            94,
+            49,
+            64
+          ],
+          [
+            77,
+            107,
+            52,
+            55,
+            17,
+            110,
+            1,
+            95
+          ]
+        ],
+        "P": 113,
+        "construction_family": "pair-partition-cpm",
+        "draw": 15,
+        "exponent_sha256": "8c32a6b08f7015ef940a8340aab1273ac4f00435f3c4ae160a04b13aa83345e3"
+      },
+      "screened": {
+        "backend": "fast",
+        "d": 16,
+        "kd2_over_n": 65.13274336283186,
+        "trials": 4000
+      },
+      "seed": 2026103216,
+      "spent": {
+        "candidates_screened": 1,
+        "cpu_hours": 0,
+        "gpu_hours": 0,
+        "walltime_hours": 0.0014867149575000047
+      },
+      "survivors": 0,
+      "verdict": "not_run"
+    }
+  ],
+  "frontier_advances": 0,
+  "negative_results": [],
+  "objective": {
+    "direction": "maximize",
+    "metric": "kd2_over_n"
+  },
+  "params": {
+    "draws": 16,
+    "lifts": [
+      97,
+      101,
+      107,
+      113
+    ],
+    "moves": 4000,
+    "numpy_trials_per_side": 4,
+    "pair_depth": 8,
+    "seed": 2026102201,
+    "threads": 8,
+    "trials": 4000
+  },
+  "report": null,
+  "required_outputs": [],
+  "retracted": [],
+  "run_contract": null,
+  "screen_quality": [],
+  "snapshot": {
+    "branch": "research/nihoniumqc-qldpc-routine",
+    "diff_sha256": null,
+    "dirty": false,
+    "head": "2ac3b244009edf688c3472a18d85bcd235e97e63",
+    "untracked_count": 3
+  },
+  "status": "completed",
+  "stopped_by": {
+    "detail": "candidates_screened reached 16 of 16",
+    "type": "budget_exhausted"
+  },
+  "summary_version": 1,
+  "survivors": []
+}

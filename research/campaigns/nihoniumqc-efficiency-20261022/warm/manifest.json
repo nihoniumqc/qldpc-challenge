@@ -1,0 +1,20 @@
+{
+  "upstream_commit": "2ac3b244009edf688c3472a18d85bcd235e97e63",
+  "script_sha256": "f7b036a26db9f2893b79debc0a452f368f415476553ab39a08019c6258f9e1bb",
+  "seed": 2026102202,
+  "draws": 12,
+  "parents": [
+    "872-222-20",
+    "904-230-22"
+  ],
+  "moves": 2000,
+  "initial_mutations": 2,
+  "trials_per_side": 4000,
+  "pair_depth": 8,
+  "threads": 8,
+  "numpy_version": "2.4.6",
+  "status": "completed",
+  "validated_find_count": 0,
+  "committed_script_sha256": "05fb14f8d91964862d3c5813ce79da046cb5cc58f2276fbc013356562eb0cb40",
+  "script_note": "Import sorting and whitespace formatting followed execution; executed script hash is retained separately from the formatted committed script hash."
+}
